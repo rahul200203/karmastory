@@ -1,0 +1,166 @@
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    
+  }
+  
+  .about-us-title:after{
+      left:0;
+  }
+  .sidenav li{
+    list-style: none;
+  }
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 16px;
+    color: #fff;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  .float{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:40px;
+	background-color:#25d366;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+  font-size:30px;
+	box-shadow: 2px 2px 3px #999;
+  z-index:100;
+}
+
+.my-float{
+	margin-top:16px;
+}
+  
+  @media screen and (max-height: 450px)
+   {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+   }
+
+
+   @media screen and (max-height: 450px)
+   {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+   }
+   .mobile-toggle-menu{
+    float: right;
+    margin-top: 32px;
+    color: #000;
+   }
+
+   section.mobile-menu {
+    background: #fff;
+    display: none;
+}
+
+@media only screen and (max-width: 800px) {
+    section.mobile-menu {
+        display: block !important;
+        background-color: #fff;
+    }.as_heading {
+    font-size: 25px;
+}
+.as_about_wrapper p {
+    text-align: center;
+}
+    .mobile-toggle-menu {
+        float: right;
+        margin-top: -52px;
+        color: #000;
+    }
+    .as_banner_img img {
+       
+        width: 100%;
+    }
+   
+    .as_heading:after{
+        left: 35%;
+    }
+    .as_banner_detail h1 {
+
+        margin-bottom: 50px;
+        text-align: center;
+    }
+    .as_banner_detail h5 {
+        margin-top: 50px;
+        text-align: center;
+    }
+    .slick-arrow.slick-next {
+    right: 0;
+}
+.form-col {
+    padding: 19px;
+}
+.as_banner_img {
+
+  padding-top: 80px;
+}
+
+.about-us-title{
+    text-align:center !important;
+}
+.about-us-title:after {
+    left: 37% !important;
+}
+
+.about-us-wrap {
+    background-color: #08273C !important;
+    padding: 30px  ;
+}
+  }
+  
+    .slick-arrow.slick-next {
+    right: 0;
+    display:none !important;
+    }
+    .slick-arrow.slick-prev, .as_banner_slider .slick-arrow.slick-prev{
+         display:none !important;   
+    }
+    
+ 
+    
+    .as_menu_wrapper.desktop_menu {
+    background: #fff !important;
+}
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    }
